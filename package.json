@@ -24,7 +24,7 @@
         "build": "craco build",
         "test": "craco test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build",
+        "predeploy": "craco build",
         "deploy": "gh-pages -d build",
         "lint": "eslint --fix . --ignore-path ./.gitignore",
         "format": "prettier --write './**/*.{js,jsx,css,json}' --config ./.prettierrc --ignore-path ./.gitignore"
