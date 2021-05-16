@@ -94,7 +94,7 @@ function App() {
                         </p>
                     </div>
                 </div>
-                <div className={`relative h-screen mt-[210px] md:mt-[100px] z-10`}>
+                <div className="relative h-screen mt-[210px] md:mt-[100px] z-10">
                     <ReactMapGL
                         {...viewport}
                         width="100%"
