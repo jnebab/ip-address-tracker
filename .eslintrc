@@ -18,7 +18,10 @@
         "react-hooks/rules-of-hooks": "warn",
         "react-hooks/exhaustive-deps": "warn",
         "react/react-in-jsx-scope": "off",
-        "global-require": 0  
+        "react/jsx-curly-brace-presence": [1],
+        "no-unused-vars": ["warn"],
+        "global-require": 0,
+        "react/jsx-props-no-spreading": false
     },
     "parserOptions": {
         "ecmaVersion": 2020,
