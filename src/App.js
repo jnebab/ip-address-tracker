@@ -9,7 +9,6 @@ function App() {
         zoom: 14,
         bearing: 0,
         pitch: 0,
-        showMarker: true,
     })
     const [domain, setDomain] = useState('')
     const [result, setResult] = useState(undefined)

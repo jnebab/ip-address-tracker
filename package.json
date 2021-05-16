@@ -10,6 +10,7 @@
         "@testing-library/user-event": "^12.1.10",
         "autoprefixer": "^9",
         "axios": "^0.21.1",
+        "mapbox-gl": "^2.2.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-map-gl": "^6.1.15",
@@ -48,7 +49,7 @@
             ">0.2%",
             "not dead",
             "not op_mini all",
-            "not ie 11", 
+            "not ie 11",
             "not chrome < 51",
             "not safari < 10"
         ],
@@ -70,10 +71,10 @@
         "eslint-plugin-prettier": "^3.4.0",
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "gh-pages": "^3.1.0",
         "husky": "^6.0.0",
         "lint-staged": "^11.0.0",
         "postcss": "^7",
-        "prettier": "^2.3.0"
+        "prettier": "^2.3.0",
+        "worker-loader": "^3.0.8"
     }
 }
