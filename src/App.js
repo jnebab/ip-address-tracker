@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import axios from 'axios'
-import ReactMapGL from 'react-map-gl'
+// import ReactMapGL from 'react-map-gl'
 
 function App() {
-    const [viewport, setViewport] = useState({
+    const [, setViewport] = useState({
         latitude: 37.8,
         longitude: -122.4,
         zoom: 14,
