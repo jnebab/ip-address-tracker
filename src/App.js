@@ -18,13 +18,13 @@ function App() {
         const { data } = await axios.get(
             `https://api.ipify.org?format=json&apiKey=at_NNUTa2GZLigXOU64xdT3tdc6XjltL&domain=${domain}`
         )
-        const { location } = data?.data
+        const { location } = data
         setViewport((old) => ({
             ...old,
             latitude: location?.lat,
             longitude: location?.lng,
         }))
-        setResult(data?.data)
+        setResult(data)
     }
 
     return (
