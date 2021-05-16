@@ -1,5 +1,4 @@
 {
-    "homepage": "http://jnebab.github.io/ip-address-tracker",
     "name": "react-tw-ip-tracker",
     "version": "0.1.0",
     "private": false,
@@ -11,7 +10,6 @@
         "@testing-library/user-event": "^12.1.10",
         "autoprefixer": "^9",
         "axios": "^0.21.1",
-        "google-map-react": "^2.1.9",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-map-gl": "^6.1.15",
@@ -24,8 +22,6 @@
         "build": "craco build",
         "test": "craco test",
         "eject": "react-scripts eject",
-        "predeploy": "craco build",
-        "deploy": "gh-pages -d build",
         "lint": "eslint --fix . --ignore-path ./.gitignore",
         "format": "prettier --write './**/*.{js,jsx,css,json}' --config ./.prettierrc --ignore-path ./.gitignore"
     },

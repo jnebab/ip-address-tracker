@@ -28,7 +28,7 @@ function App() {
     }
 
     return (
-        <main className="App grid place-items-center">
+        <main className="grid place-items-center">
             <div className="bg-hero-pattern w-full h-[350px] md:h-[240px] object-cover">
                 <div className="w-[90%] mx-auto flex justify-center flex-col p-4 mb-8">
                     <h1 className="mt-3 mb-5 text-2xl text-center text-white">
