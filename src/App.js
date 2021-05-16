@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import axios from 'axios'
-// import ReactMapGL from 'react-map-gl'
+import ReactMapGL from 'react-map-gl'
 
 function App() {
-    const [, setViewport] = useState({
+    const [viewport, setViewport] = useState({
         latitude: 37.8,
         longitude: -122.4,
         zoom: 14,
@@ -95,13 +95,13 @@ function App() {
                     </div>
                 </div>
                 <div className="relative h-screen mt-[210px] md:mt-[100px] z-10">
-                    {/* <ReactMapGL
+                    <ReactMapGL
                         {...viewport}
                         width="100%"
                         height="100%"
                         onViewportChange={(view) => setViewport(view)}
                         mapStyle="mapbox://styles/mapbox/streets-v11"
-                    /> */}
+                    />
                 </div>
             </div>
         </main>
